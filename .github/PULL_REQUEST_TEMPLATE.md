@@ -1,27 +1,28 @@
-## Pull Request Guidelines
-Please, go through these steps before you submit a pull request.
+# Diretrizes de solicitação de pull request
 
-1. Make sure that your pull request is not a duplicate.
-2. If not, then make sure that:
+Siga estas etapas antes de enviar uma solicitação de pull request.
 
-	2.1. You have done your changes in a separate branch. Branches MUST have descriptive names that start with either the `fix/` or `feature/` prefixes. Good examples are: `fix/signin-issue` or `feature/issue-templates`.
+1. Verifique se sua solicitação de pull request não é duplicada.
+2. Caso contrário, certifique-se de que:
 
-	2.2. You have a descriptive commit message with a short title (first line).
+   2.1. Você fez suas alterações em uma ramificação separada. As ramificações DEVEM ter nomes descritivos que começam com os prefixos `fix/` ou `feature/`. Bons exemplos são: `fix/signin-issue` ou `feature/issue-templates`.
 
-	2.2. You have created one pull request for one purpose only. Create separate branches and separate pull requests for each newly introduced feature or for each fixed issue.
+   2.2. Você tem uma mensagem de commit descritiva com um título curto (primeira linha).
 
-	2.3. You have only one commit (if not, squash them into one commit).
+   2.2. Você criou uma solicitação de pull request para apenas um propósito. Crie ramificações separadas e solicitações de pull request separadas para cada novo recurso introduzido ou para cada problema corrigido.
 
-3. **After** these steps, you're ready to open a pull request.
+   2.3. Você tem apenas um commit (se não, esmague-os em um único commit).
 
-	3.1. Your pull request MUST NOT target the `master` branch on this repository. Instead target the next version branch. For eg. If the [current stable version](https://github.com/pratikborsadiya/vali-admin/releases/latest) of the theme is `2.3.1` then target the branch for the next version `2.3.2` or `3.0.0` if the next version is a major release. Your changes will be merged in master branch when the next release will happen.
+3. **Após** essas etapas, você estará pronto para abrir uma solicitação de pull request.
 
-	3.2. Give a descriptive title to your PR.
+   3.1. Sua solicitação de pull request NÃO DEVE ter como alvo a ramificação `master` neste repositório. Em vez disso, vise a próxima ramificação de versão. Por exemplo, se a [versão estável atual](https://github.com/alexjesustech/ocellaris-dash/releases/latest) do tema for `2.3.1`, vise a ramificação para a próxima versão `2.3.2` ou `3.0.0` se a próxima versão for uma versão principal. Suas alterações serão mescladas na ramificação master quando a próxima versão ocorrer.
 
-	3.3. Provide a description of your changes.
+   3.2. Dê um título descritivo ao seu PR.
 
-	3.4. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes.
+   3.3. Forneça uma descrição de suas alterações.
 
-IMPORTANT: Please review the [CONTRIBUTING.md](../CONTRIBUTING.md) file for detailed contributing guidelines.
+   3.4. Coloque `closes #XXXX` em seu comentário para fechar automaticamente o problema que seu PR corrige.
 
-**PLEASE REMOVE THIS TEMPLATE BEFORE SUBMITTING**
+IMPORTANTE: Por favor, revise o arquivo [CONTRIBUTING.md](../CONTRIBUTING.md) para obter diretrizes de contribuição detalhadas.
+
+**REMOVA ESTE TEMPLATE ANTES DE ENVIAR**
