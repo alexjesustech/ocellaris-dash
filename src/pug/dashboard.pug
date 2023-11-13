@@ -9,21 +9,21 @@ block content
 		div
 			h1
 				i.bi.bi-speedometer
-				|  Dashboard
-			p A free and open source Bootstrap 5 admin template
+				|  Painel
+			p Painel Administrativo em Bootstrap 5 gratuito e código aberto
 
 		ul.app-breadcrumb.breadcrumb
 			li.breadcrumb-item
 				i.bi.bi-house-door.fs-6
 			li.breadcrumb-item
-				a(href='#') Dashboard
+				a(href='#') Painel
 
 	.row
 		.col-md-6.col-lg-3
 			.widget-small.primary.coloured-icon
 				i.icon.bi.bi-people.fs-1
 				div.info
-					h4 Users
+					h4 Usuários
 					p
 						b 5
 
@@ -53,13 +53,13 @@ block content
 	.row
 		.col-md-6
 			.tile
-				h3.tile-title Weekly Sales - Last week
+				h3.tile-title Vendas Semanais - Semana passada
 				.ratio.ratio-16x9
 					div(id="salesChart")
 
 		.col-md-6
 			.tile
-				h3.tile-title Support Requests
+				h3.tile-title Solicitações de Suporte
 				.ratio.ratio-16x9
 					div(id="supportRequestChart")
 
@@ -70,24 +70,27 @@ block specific-js
 		const salesData = {
 			xAxis: {
 				type: 'category',
-				data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+				data: ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom']
 			},
 			yAxis: {
 				type: 'value',
 				axisLabel: {
-					formatter: '${value}'
+					formatter: 'R$ {value}'
 				}
 			},
 			series: [
 				{
-					data: [150, 230, 224, 218, 135, 147, 260],
-					type: 'line',
-					smooth: true
-				}
+					data: [1500, 2300, 2240, 2180, 1350, 1470, 2600],
+					type: 'bar',
+					showBackground: true,
+					backgroundStyle: {
+						color: 'rgba(180, 180, 180, 0.2)'
+					},
+				},
 			],
 			tooltip: {
 				trigger: 'axis',
-				formatter: "<b>{b0}:</b> ${c0}"
+				formatter: "<b>{b0}:</b> R$ {c0}"
 			}
 		}
 
@@ -101,13 +104,12 @@ block specific-js
 			},
 			series: [
 				{
-					name: 'Support Requests',
+					name: 'Solicitações de Suporte',
 					type: 'pie',
-					radius: '50%',
 					data: [
-						{ value: 300, name: 'In Progress' },
-						{ value: 50, name: 'Delayed' },
-						{ value: 100, name: 'Complete' }
+						{ value: 300, name: 'Em andamento' },
+						{ value: 50, name: 'Atrasado' },
+						{ value: 100, name: 'Concluído' }
 					],
 					emphasis: {
 						itemStyle: {

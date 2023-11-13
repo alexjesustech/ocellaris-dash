@@ -2,7 +2,7 @@
 	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url(https://images.unsplash.com/photo-1487621167305-5d248087c724?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=700&fit=crop&ixid=eyJhcHBfaWQiOjF9);
+	background-image: url('../images/por-do-sol-rio-madeira.jpg');
 	border-bottom: 1px solid #ddd;
 }
 
@@ -31,6 +31,7 @@
 
 .landing-hero-title {
 	font-size: 26px;
+	text-shadow: 0 8px 17px rgba(0, 0, 0, 0.2);
 	@media(max-width: 480px) { font-size: 20px; }
 }
 

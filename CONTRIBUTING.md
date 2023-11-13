@@ -1,97 +1,101 @@
-# Contributing to Vali Admin
+# Contribuindo para o Ocellaris Dash
 
-:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
+Em primeiro lugar, obrigado por reservar um tempo para contribuir!
 
-The following is a set of guidelines for contributing to Vali Admin. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+Segue um conjunto de diretrizes para contribuir com o Ocellaris Dash. Essas são principalmente diretrizes, não regras. Use seu bom senso e sinta-se à vontade para propor mudanças a este documento em uma solicitação de pull.
 
-#### Table Of Contents
+#### Índice
 
-[Code of Conduct](#code-of-conduct)
+[Código de Conduta](#código-de-conduta)
 
-[How Can I Contribute?](#how-can-i-contribute)
-  * [Reporting Bugs](#reporting-bugs)
-  * [Suggesting Enhancements](#suggesting-enhancements)
-  * [Fixing a bug](#fixing-a-bug)
-  * [Providing Enhancements](#providing-enhancements)
+[Como posso contribuir?](#como-posso-contribuir)
+  * [Relatando Bugs](#relatando-bugs)
+  * [Sugerindo Melhorias](#sugerindo-melhorias)
+  * [Corrigindo um bug](#corrigindo-um-bug)
+  * [Fornecendo Melhorias](#fornecendo-melhorias)
   * [Pull Requests](#pull-requests)
 
-[Styleguides](#styleguides)
-  * [Git Commit Messages](#git-commit-messages)
+[Guias de Estilo](#guias-de-estilo)
+  * [Mensagens de Commit do Git](#mensagens-de-commit-do-git)
 
-## Code of Conduct
+## Código de Conduta
 
-This project and everyone participating in it is governed by the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [pratikborsadiya@gmail.com](mailto:pratikborsadiya@gmail.com).
+Este projeto e todos os que participam dele são regidos pelo [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). Ao participar, espera-se que você cumpra este código. Por favor, reporte comportamentos inaceitáveis para [Alex Jesus](mailto:alexjesus.tech@gmail.com)
 
-## How Can I Contribute?
+## Como posso contribuir?
 
-### Reporting Bugs
+### Relatando Bugs
 
-This section guides you through submitting a bug report for Vali Admin. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
+Esta seção orienta você a enviar um relatório de bug para o Ocellaris Dash. Seguir estas diretrizes ajuda os mantenedores e a comunidade a entender seu relatório, reproduzir o comportamento, e encontrar relatórios relacionados.
 
-Before creating bug reports, please check existing open issues and make sure the issue you are reporting is not already reported and open. When you are creating a bug report, please fill out the required template, the information it asks for helps us resolve issues faster.
+Antes de criar relatórios de bug, verifique os problemas abertos existentes e certifique-se de que o problema que você está relatando já não foi relatado e aberto. Quando estiver criando um relatório de bug, preencha o modelo obrigatório, as informações solicitadas nos ajudam a resolver problemas mais rapidamente.
 
-> **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
+> **Nota:** Se você encontrar um problema **Fechado** que parece ser o mesmo que você está experimentando, abra um novo problema e inclua um link para o problema original no corpo do seu novo.
 
-#### How Do I Submit A (Good) Bug Report?
+#### Como faço para enviar um (bom) relatório de bug?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). Explain the problem and include additional details to help maintainers reproduce the problem:
+Os bugs são rastreados como [problemas do GitHub](https://guides.github.com/features/issues/). Explique o problema e inclua detalhes adicionais para ajudar os mantenedores a reproduzir o problema:
 
-* **Use a clear and descriptive title** for the issue to identify the problem.
-* **Describe the exact steps which reproduce the problem** in as many details as possible.
-* **If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines)**.
-* **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
-* **Explain which behavior you expected to see instead and why.**
-* **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
+* **Use um título claro e descritivo** para identificar o problema.
+* **Descreva as etapas exatas que reproduzem o problema** com o máximo de detalhes possível.
+* **Se você estiver fornecendo snippets no problema, use [blocos de código Markdown](https://help.github.com/articles/markdown-basics/#multiple-lines)**.
+* **Descreva o comportamento que você observou após seguir as etapas** e aponte exatamente qual é o problema com esse comportamento.
+* **Explique qual comportamento você esperava ver em vez disso e por quê.**
+* **Inclua capturas de tela e GIFs animados** que mostram você seguindo as etapas descritas e demonstrem claramente o problema. Você pode usar [esta ferramenta](https://www.cockos.com/licecap/) para gravar GIFs no macOS e Windows, e [esta ferramenta](https://github.com/colinkeenan/silentcast) ou [esta ferramenta](https://github.com/phw/peek) no Linux.
 
-### Suggesting Enhancements
+### Sugerindo Melhorias
 
-Just like bugs enhancements can also be suggested as [GitHub issues](https://guides.github.com/features/issues/).
+Assim como os bugs, as melhorias também podem ser sugeridas como [problemas do GitHub](https://guides.github.com/features/issues/).
 
-#### How Do I Submit A (Good) Enhancement Suggestion ?
+#### Como faço para enviar uma (boa) sugestão de melhoria?
 
-* **Use a clear and descriptive title** for the suggestion you are proposing.
-* **Include related screenshots or animated GIFs** for better clarity.
-* **Describe how would it be useful** for the users.
+* **Use um título claro e descritivo** para a sugestão que você está propondo.
+* **Inclua capturas de tela ou GIFs animados relacionados** para melhor clareza.
+* **Descreva como seria útil** para os usuários.
 
-### Fixing a bug
+### Corrigindo um bug
 
-* If you are considering to fix an open issue please comment on the issue that you are working on fixing the issue and how are you planning to fix it. 
-* Create a new issue if the one you are fixing is not already open and then comment on the issue that you are fixing it. 
-* This will let the contributors know that the specific issue is currently being fixed and they shold wait sometime before trying to fix the same issue themselves.
+* Se você estiver pensando em corrigir um problema aberto, comente no problema que você está trabalhando para corrigir o problema e como está planejando corrigi-lo.
+* Crie um novo problema se o que você está corrigindo ainda não estiver aberto e, em seguida, comente no problema que você está corrigindo.
+* Isso permitirá que os colaboradores saibam que o problema específico está sendo corrigido no momento e devem esperar um pouco antes de tentar corrigir o mesmo problema eles mesmos.
 
-### Providing Enhancements
-* If you are planning to propose a new feature please open an issue for the same feature request prior to starting work on a feature.
-* This will help the contributors and maintainers provide feedback and support for the enhancement you are providing.
+### Fornecendo Melhorias
 
-### Pull requests
-Please, go through these steps before you submit a pull request.
+- Se você estiver planejando propor um novo recurso, abra um problema para a mesma solicitação de recurso antes de começar a trabalhar em um recurso.
+- Isso ajudará os colaboradores e mantenedores a fornecer feedback e suporte para a melhoria que você está fornecendo.
 
-1. Make sure that your pull request is not a duplicate.
-2. If not, then make sure that:
+### Pull Requests
 
-	2.1. You have done your changes in a separate branch. Branches MUST have descriptive names that start with either the `fix` or `feature` prefixes. Good examples are: `fix-signin-issue` or `feature-issue-templates`.
+Por favor, siga estas etapas antes de enviar uma solicitação de pull.
 
-	2.2. You have a descriptive commit message with a short title (first line).
+1. Verifique se sua solicitação de pull não é uma duplicata.
 
-	2.2. You have created one pull request for one purpose only. Create separate branches and separate pull requests for each newly introduced feature or for each fixed issue.
+2. Se não, certifique-se de que:
 
-	2.3. You have only one commit (if not, squash them into one commit).
+    2.1. Você fez suas alterações em uma ramificação separada. As ramificações DEVEM ter nomes descritivos que começam com os prefixos `fix` ou `feature`. Bons exemplos são: `fix-signin-issue` ou `feature-issue-templates`.
 
-3. **After** these steps, you're ready to open a pull request.
+    2.2. Você tem uma mensagem de commit descritiva com um título curto (primeira linha).
 
-	3.1. Your pull request MUST NOT target the `master` branch on this repository. Instead target the next version branch. For eg. If the [current stable version](https://github.com/pratikborsadiya/vali-admin/releases/latest) of the theme is `2.3.1` then target the branch for the next version `2.3.2` or `3.0.0` if the next version is a major release. Your changes will be merged in master branch when the next release will happen.
+    2.2. Você criou uma solicitação de pull para apenas um propósito. Crie ramificações separadas e solicitações de pull separadas para cada novo recurso introduzido ou para cada problema corrigido.
 
-	3.2. Give a descriptive title to your PR.
+    2.3. Você tem apenas um commit (se não, comprima-os em um commit).
 
-	3.3. Provide a description of your changes.
+3. **Após** essas etapas, você está pronto para abrir uma solicitação de pull.
 
-	3.4. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes.
+3.1. Sua solicitação de pull NÃO DEVE direcionar a ramificação `master` neste repositório. Em vez disso, direcione a ramificação da próxima versão. Por exemplo, se a versão estável atual: <https://github.com/alexjesustech/ocellaris-dash/releases/latest> do tema for `2.3.1`, direcione a ramificação para a próxima versão `2.3.2` ou `3.0.0`, se a próxima versão for um lançamento principal. Suas alterações serão mescladas na ramificação principal quando o próximo lançamento ocorrer.
 
-## Styleguides
+3.2. Dê um título descritivo ao seu PR.
 
-### Git Commit Messages
+3.3. Forneça uma descrição de suas alterações.
 
-* Use the present tense ("Add feature" not "Added feature")
-* Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
-* Limit the first line to 72 characters or less
-* Reference issues and pull requests liberally after the first line
+3.4. Coloque `closes #XXXX` em seu comentário para fechar automaticamente o problema que seu PR corrige.
+
+
+## Guias de Estilo
+
+### Mensagens de Commit do Git
+
+- Use o tempo presente ("Add feature" não "Added feature")
+- Use o modo imperativo ("Move cursor to..." não "Moves cursor to...")
+- Limite a primeira linha a 72 caracteres ou menos
+- Faça referência a problemas e solicitações de pull generosamente após a primeira linha

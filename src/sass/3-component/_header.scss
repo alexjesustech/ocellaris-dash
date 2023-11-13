@@ -18,7 +18,7 @@
 	flex: 1 0 auto;
 	color: #fff;
 	text-align: center;
-	font-family: 'Niconne';
+	//font-family: 'Anton', Roboto, sans-serif;
 	padding: 0 15px;
 	font-size: 26px;
 	font-weight: 400;
@@ -29,10 +29,10 @@
 		display: block;
 		width: $sidebar-width;
 		@if $sidebar-accent == dark {
-			background-color: darken( $primary-color, 5% );
+			background-color: darken( $primary-color, 15% );
 		}
 		@if $sidebar-accent == light {
-			background-color: lighten( $primary-color, 5% );
+			background-color: lighten( $primary-color, 15% );
 		}
 	}
 	&:focus,
