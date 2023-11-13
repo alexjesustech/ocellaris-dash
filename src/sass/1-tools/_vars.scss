@@ -11,20 +11,13 @@ $body-font: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helv
 
 $white: #FFF;
 
-// Primary color is the main color of the application which is used 
-// for navbar, active links and primary button.
+// A cor primária é a cor principal do aplicativo usado
+// para barra de navegação, links ativos e botão principal.
 
-// ------ Primary Colors from google material design color palette ------
-// Blue  : #1565C0
-// Teal  : #00695C
-// Green : #2E7D32
-// Brown : #4E342E
-// Purple: #4527A0
+$primary-color: #42a5f5;
 
-$primary-color: #00695C;
-
-// Complementry color is used to indecate the loading bar on the top
-// of the page with pace.js plugin
+// A cor complementar é usada para indicar a barra de carregamento na parte superior
+// da página com plugin pace.js
 $complementry-color: adjust_hue($primary-color, 180);
 
 // ------- Sidebar Width --------
@@ -32,23 +25,23 @@ $sidebar-width: 230px;
 
 // ------- Sidebar Colors --------
 
-// Background color of sidebar
-$sidebar-color: #222d32;
+// Cor de fundo da barra lateral
+$sidebar-color: #263544;
 
-// -- Suggested sidebar background colors
+// -- Cores de fundo da barra lateral sugeridas
 // dark  : #222d32
 // light : #f8f8f8
 
-// Sidebar accent varible is used to determine the color of the links
-// of the sidebar. The allowed values are 'light' or 'dark' only
+// A variável de acento da barra lateral é usada para determinar a cor dos links
+// da barra lateral. Os valores permitidos são apenas 'dark' ou 'light'
 $sidebar-accent: dark;
 
-// The following varibles indecate sidebar link color
-// and link hover color when using a dark sidebar color
-$sidebar-dark-color: #fff;
-$sidebar-dark-link-color: #fff;
+// As seguintes variáveis indicam a cor do link da barra lateral
+// e cor de foco do link ao usar uma cor escura da barra lateral
+$sidebar-dark-color: #42a5f5;
+$sidebar-dark-link-color: #b7c0cd;
 
-// The following varibles indecate sidebar link color
-// and link hover color when using a light sidebar color
-$sidebar-light-color: #000;
-$sidebar-light-link-color: #333;
+// As seguintes variáveis indicam a cor do link da barra lateral
+// e cor de foco do link ao usar uma cor clara da barra lateral
+$sidebar-light-color: #b7c0cd;
+$sidebar-light-link-color: #42a5f5;
