@@ -1,38 +1,36 @@
-# Vali Admin
+# Ocellaris Dash
 
-![vali-admin](http://pratikborsadiya.in/blog/vali-admin/vali-admin-banner.gif)
+Ocellaris Dash é um tema de administração gratuito, modular e fácil de personalizar, desenvolvido usando [Bootstrap 5](https://getbootstrap.com), [SASS](http://sass-lang.com) e [Pug.js](https://pugjs.org).
 
-[![npm version](https://badge.fury.io/js/vali-admin.svg)](https://badge.fury.io/js/vali-admin)
+## Como começar
 
-Vali is a free, modular and easy to customize admin theme built using [Bootstrap 5](https://getbootstrap.com), [SASS](http://sass-lang.com) and [Pug.js](https://pugjs.org).
+Execute um comando `npm install` no diretório raiz do projeto para instalar e construir as dependências. Se você não quiser editar o tema, poderá usar os arquivos compilados dentro da pasta `docs`.
 
-## Getting started
+Use o comando `npm run dev` para observar e compilar os arquivos de origem.
 
-Run a `npm install` command in project root directory to install and build dependencies. If you don't want to edit theme you can use the compiled files inside `docs` folder.
+Use o comando `npm run build` para compilar todos os arquivos de origem.
 
-Use `npm run dev` command to watch and compile source files.
+Use o comando `npm run start` para iniciar um servidor de desenvolvimento usando [NodeJs](https://nodejs.org).
 
-Use `npm run build` command to compile all source files.
+> **Observação:** O servidor NodeJs mencionado no comando `npm run start` é apenas para fins de desenvolvimento. NÃO o use como um servidor de produção.
 
-Use `npm run start` command to start a development server using NodeJs.
+## Personalização
 
-> **Note:**
-> * The NodeJs server mentioned in `npm run start` command is for development purpose only. DONOT use it as a production server.
+Para obter mais informações sobre como personalizar as cores do tema, siga a documentação oficial aqui: https://pratikborsadiya.in/vali-admin/docs.html.
 
-## Customization
-For more information about customizing theme colors please follow the official [documentation](https://pratikborsadiya.in/vali-admin/docs.html).
+## Suporte RTL (Right-to-Left)
 
-## RTL Support
-Please follow the official [documentation](https://pratikborsadiya.in/vali-admin/docs.html) to enable RTL support.
+Siga a documentação oficial aqui: https://pratikborsadiya.in/vali-admin/docs.html para habilitar o suporte RTL.
 
-## Contributing
-Please take a look at [contributing guidelines](CONTRIBUTING.md) if you are considering contributing to the repository.
+## Contribuindo
 
-## Contributors
+Consulte as diretrizes de contribuição: CONTRIBUTING.md se estiver pensando em contribuir para o repositório.
 
-* **[Pratik Borsadiya](http://pratikborsadiya.in)** - *Project Author*
-* **List of [contributors](https://github.com/pratikborsadiya/vali-admin/graphs/contributors)** who participated in this project.
+## Colaboradores
 
-## License
+- Este fork foi criado com base no trabalho original [Vali Admin](https://github.com/pratikborsadiya/vali-admin). Agradecemos ao autor [Pratik Borsadiya](http://pratikborsadiya.in) por seu trabalho e contribuição para a comunidade de código aberto.
+- Lista de [colaboradores](https://github.com/alexjesustech/ocellaris-dash/graphs/contributors) que participaram deste projeto.
 
-This project is licensed under the [MIT](LICENSE) License
+## Licença
+
+Este projeto está licenciado sob a [licença MIT](LICENSE)

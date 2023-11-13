@@ -1,7 +1,7 @@
 {
-  "name": "vali-admin",
-  "version": "4.1.0",
-  "description": "An admin theme built with Bootstrap, sass and PugJs",
+  "name": "ocellaris-dash",
+  "version": "1.0.0",
+  "description": "Ocellaris Dash é um tema de administração gratuito, modular e fácil de personalizar, desenvolvido usando Bootstrap 5, SASS e Pug.js.",
   "devDependencies": {
     "autoprefixer": "^9.8.8",
     "grunt": "^1.6.1",
@@ -19,17 +19,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pratikborsadiya/vali-admin.git"
+    "url": "git+https://github.com/alexjesustech/ocellaris-dash.git"
   },
   "keywords": [
     "admin",
     "dashboard",
     "theme"
   ],
-  "author": "Pratik Borsadiya",
+  "author": "Alex Jesus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pratikborsadiya/vali-admin/issues"
+    "url": "https://github.com/alexjesustech/ocellaris-dash/issues"
   },
   "homepage": "http://pratikborsadiya.in/blog/vali-admin",
   "dependencies": {

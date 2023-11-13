@@ -1,26 +1,26 @@
 doctype html
-html
+html(lang='pt-br')
 	head
 		meta(charset='utf-8')
 		meta(http-equiv='X-UA-Compatible', content='IE=edge')
 		meta(name='viewport', content='width=device-width, initial-scale=1')
 
-		meta(name="description", content="Vali is a responsive and free dashboard theme/template built with Bootstrap 5, SASS and PUG.js.")
+		meta(name='description', content='Ocellaris Dash é um template administrativo gratuito, modular e fácil de personalizar, construído com Bootstrap 5, Sass e PugJS.')
 
 		// Twitter meta
-		meta(property="twitter:card", content="summary_large_image")
-		meta(property="twitter:site", content="@pratikborsadiya")
-		meta(property="twitter:creator", content="@pratikborsadiya")
+		meta(property='twitter:card', content='summary_large_image')
+		meta(property='twitter:site', content='@alexjesustech')
+		meta(property='twitter:creator', content='@alexjesustech')
 
 		// Open Graph Meta
-		meta(property="og:type", content="website")
-		meta(property="og:site_name", content="Vali Admin")
-		meta(property="og:title", content="Vali Admin - Free Bootstrap 5 Dashboard Template")
-		meta(property='og:url', content='http://pratikborsadiya.in/vali-admin')
-		meta(property='og:image', content='http://pratikborsadiya.in/blog/vali-admin/hero-social.png')
-		meta(property="og:description", content="Vali is a responsive and free dashboard theme/template built with Bootstrap 5, SASS and PUG.js.")
+		meta(property='og:type', content='website')
+		meta(property='og:site_name', content='Ocellaris Dash')
+		meta(property='og:title', content='Ocellaris Dash - Template administrativo gratuito')
+		meta(property='og:url', content='https://alexjesustech.github.io/ocellaris-dash')
+		meta(property='og:image', content='https://alexjesustech.github.io/ocellaris-dash/imagens/hero-social.png')
+		meta(property='og:description', content='Ocellaris Dash é um template administrativo gratuito, modular e fácil de personalizar, construído com Bootstrap 5, Sass e PugJS.')
 
-		title Vali Admin - Free Bootstrap 5 Dashboard Template
+		title Ocellaris Dash - Template administrativo gratuito
 
 		link(rel='stylesheet', type='text/css', href='css/main.css')
 
@@ -29,32 +29,31 @@ html
 		section.landing-hero
 			.landing-hero-overlay
 			.landing-hero-content
-				h1.landing-hero-title Vali Admin - A Free Bootstrap 5 Dashboard Template
-				p.landing-hero-description Built with PugJS, SASS, and Bootstrap 5
+				h1.landing-hero-title Ocellaris Dash - Template administrativo gratuito
+				p.landing-hero-description Construído com Bootstrap 5, Sass e PugJS
 
 				div
-					a.btn.btn-primary.me-4(href="dashboard.html") Demo
-					a.btn.btn-primary(href="https://github.com/pratikborsadiya/vali-admin" target="_blank" rel="noopener") GitHub
+					a.btn.btn-primary.me-4(href='dashboard.html') Visualizar
+					a.btn.btn-primary(href='https://github.com/alexjesustech/ocellaris-dash' target='_blank' rel='noopener') GitHub
 
-				img.landing-hero-banner(src="images/banner.jpg")
+				img.landing-hero-banner(src='images/banner.png')
 
 		section.features
-			h1.features-title Features
-
+			h1.features-title Características
 
 			.features-cards
 				.features-card
 					.feature-icon-backdrop
 						svg.feature-icon: use(xlink:href='#icon-globe')
-					p.feature-description Free to use and open-source
+					p.feature-description Gratuito para usar e de código aberto
 				.features-card
 					.feature-icon-backdrop
 						svg.feature-icon: use(xlink:href='#icon-smartphone')
-					p.feature-description Beautiful and mobile responsive
+					p.feature-description Bonito e responsivo para dispositivos móveis
 				.features-card
 					.feature-icon-backdrop
 						svg.feature-icon: use(xlink:href='#icon-zap')
-					p.feature-description Built with Bootstrap 5, SASS and PUG.js
+					p.feature-description Construído com Bootstrap 5, Sass e PugJS
 				.features-card
 					.feature-icon-backdrop
 						svg.feature-icon: use(xlink:href='#icon-chart')
@@ -62,11 +61,26 @@ html
 				.features-card
 					.feature-icon-backdrop
 						svg.feature-icon: use(xlink:href='#icon-layout')
-					p.feature-description Seven pre built pages including login, user profile and print friendly invoice page
+					p.feature-description Sete páginas pré-construídas, incluindo login, perfil de usuário e página de fatura para impressão
 				.features-card
 					.feature-icon-backdrop
 						svg.feature-icon: use(xlink:href='#icon-grid')
-					p.feature-description Data tables with sort, search and paginate functions
+					p.feature-description Tabelas de dados com funções de ordenação, pesquisa e paginação
 
-		footer.landing-footer Created by #[b Pratik Borsadiya] & 
-			a(href="https://github.com/pratikborsadiya/vali-admin/graphs/contributors" target="_blank" rel="noopener") contributors
+		footer.landing-footer Construído com Bootstrap 5, Sass e PugJS. Mantido por
+			a(href='https://github.com/alexjesustech', target='_blank')  Alex Jesus
+			|  com ajuda de contribuidores.
+			p Código licenciado sob a
+				a(href='https://github.com/alexjesustech/ocellaris-dash/blob/main/LICENSE', target='_blank')  licença MIT
+				|, documentação sob
+				a(href='https://creativecommons.org/licenses/by/4.0/deed.pt-br', target='_blank')  CC BY 4.0.
+
+		// Google tag (gtag.js)
+		script(async='' src='https://www.googletagmanager.com/gtag/js?id=G-7W8LKJBHHC')
+		script.
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'G-7W8LKJBHHC');
