@@ -142,51 +142,51 @@
           <div class="docs" style="max-width: 700px;">
             <h2 class="docs-title">Directory Structure</h2>
             <pre class="directory-structure">│
-├── docs - <i>compiled files</i>
-│   ├── css
-│   ├── images
-│   └── js
-└── src - <i>Layout and style source files</i>
-&nbsp;&nbsp;&nbsp;&nbsp;├── pug - <i>Layout source</i>
-&nbsp;&nbsp;&nbsp;&nbsp;└── sass - <i>Style source</i>
+├── docs - <i>arquivos compilados</i>
+│         ├── css
+│         ├── images
+│         └── js
+└── src - <i>Arquivos de origem de layout e estilo</i>
+          ├── pug - <i>Fonte de layout</i>
+          └── sass - <i>Fonte de estilo</i>
 </pre>
-            <h2 class="docs-title" id="Compilation-of-source-files">Compilation of source files</h2>
-            <p>The theme is built using SASS and PugJs which are in turn compiled into HTML and CSS by Grunt. If you are not familiar with Grunt, <a href="https://24ways.org/2013/grunt-is-not-weird-and-hard/" target="_blank" rel="noopener">here</a> is an article to get started. If you are familiar with Grunt follow the instruction mentioned bellow to edit or customize the source. </p>
-            <p>If you don't want to edit theme you can use the compiled files directly inside <code>docs</code> folder.</p>
-            <p>Run <code>npm install</code> command in project root directory to install and build dependencies.</p>
-            <p>Use <code>npm run dev</code> task to edit and compile source files on the go or use <code>npm run build</code> task to compile all source files at once.</p>
-            <h2 class="docs-title" id="Layout-Customization">Layout Customization</h2>
-            <p>The layout is built using PugJs. All the layout source files are located in <code>src/pug</code> directory. There are two sub directories inside this directory: 
+            <h2 class="docs-title" id="Compilation-of-source-files">Compilação de arquivos de origem</h2>
+            <p>O tema é construído usando SASS e PugJs, que são compilados em HTML e CSS pelo Grunt. Se você não estiver familiarizado com o Grunt, aqui está um artigo para começar. Se você está familiarizado com o Grunt, siga as instruções mencionadas abaixo para editar ou personalizar o código-fonte.</p>
+            <p>Se você não quiser editar o tema, poderá usar os arquivos compilados diretamente dentro da pasta <code>docs</code>.</p>
+            <p>Execute o comando <code>npm install</code> no diretório raiz do projeto para instalar e construir as dependências.</p>
+            <p>Use a tarefa <code>npm run dev</code> para editar e compilar arquivos de origem em tempo real ou use a tarefa npm run build para compilar todos os arquivos de origem de uma só vez.</p>
+            <h2 class="docs-title" id="Layout-Customization">Personalização de layout</h2>
+            <p>O layout é construído usando PugJs. Todos os arquivos de origem do layout estão localizados no diretório <code>src/pug</code>. Existem dois subdiretórios dentro deste diretório:
               <ol>
-                <li><code>layout</code> - Includes common HTML skeleton layout which is extended by all the pages</li>
-                <li><code>includes</code> - Includes layout partials like sidebar and navbar and footer</li>
+                <li><code>layout</code> - Inclui o layout de estrutura HTML comum que é estendido por todas as páginas</li>
+                <li><code>includes</code> - Inclui partes do layout, como barra lateral, barra de navegação e rodapé</li>
               </ol>
             </p>
-            <h2 class="docs-title" id="Style-Customization">Style Customization</h2>
-            <p>The styles are written in SASS. All the style files are located in <code>src/sass</code> directory. There is a file in this directory <code>main.sass</code> which imports all the files and exported as main.css There are four sub directories inside this directory:
+            <h2 class="docs-title" id="Style-Customization">Personalização de estilo</h2>
+            <p>Os estilos são escritos em SASS. Todos os arquivos de estilo estão localizados no diretório <code>src/sass</code>. Há um arquivo neste diretório main.sass que importa todos os arquivos e é exportado como main.css. Existem quatro subdiretórios dentro deste diretório:
               <ol>
-                <li><code>1-tools</code> - It includes styles of all the external libraries and a file <code>_var.scss</code> which contains the variables required for the application</li>
-                <li><code>2-basics</code> - It contains the basic style like overall structure css and theming options</li>
-                <li><code>3-component</code> - It contains the styles for the components like card, widgets, sidebar, navbar etc</li>
-                <li><code>4-pages</code> - It contains the styles for the specific pages like login page, lock-screen page </li>
+                <li><code>1-tools</code> - Inclui estilos de todas as bibliotecas externas e um arquivo <code>_var.scss</code> que contém as variáveis necessárias para o aplicativo</li>
+                <li><code>2-basics</code> - Contém o estilo básico, como CSS de estrutura geral e opções de tema</li>
+                <li><code>3-component</code> - Contém os estilos para os componentes como cartão, widgets, barra lateral, barra de navegação, etc.</li>
+                <li><code>4-pages</code> - Contém os estilos para páginas específicas, como página de login e página de tela de bloqueio</li>
               </ol>
             </p>
-            <p>To customize the primary color of the theme and sidebar you need to change the variables in the <code>1-tools/_var.scss</code>. The detailed documentation about changing the colors is mentioned in this file itself.</p>
-            <p>If you don't want to use particular component or plug-in just comment the import statement for that particular component in <code>src/sass/main.scss</code> and compile the SASS by running <code>npm run build</code> command.</p>
-            <h2 class="docs-title" id="Compatibility-with-other-frameworks">Compatibility with other frameworks</h2>
-            <p>This theme is not built for a specific framework or technology like Angular or React etc. But due to it's modular nature it's very easy to incorporate it into any front-end or back-end framework like Angular, React or VueJs or Node JS. The CSS is modular enough to be incorporated in any framework. While the Javascript used to make the components interactive can be used from any of the following framework.</p>
-            <p>If you are using Angular you can use <a href="https://angular-ui.github.io/bootstrap/" rel="noopener">ui-bootstrap</a>, for React use <a href="https://react-bootstrap.github.io/" rel="noopener">React-Bootstrap</a> and for VueJs you can use <a href="https://yuche.github.io/vue-strap/" rel="noopener">VueStrap</a>.</p>
-            <p>If you are using Node JS as your web server you can use pug as your layout engine to render html templates as is without compiling them to HTML. More details are available <a href="https://pugjs.org/api/express.html" target="_balnk">here</a>.</p>
-            <h2 class="docs-title" id="RTL-Support">RTL Support</h2>
-            <p>To enable RTL support
+            <p>Para personalizar a cor primária do tema e da barra lateral, você precisa alterar as variáveis no diretório <code>1-tools/_var.scss</code>. A documentação detalhada sobre como alterar as cores é mencionada no próprio arquivo.</p>
+            <p>Se você não quiser usar um componente ou plug-in específico, basta comentar a instrução de importação para aquele componente específico em <code>src/sass/main.scss</code> e compilar o SASS executando o comando <code>npm run build</code>.</p>
+            <h2 class="docs-title" id="Compatibility-with-other-frameworks">Compatibilidade com outros frameworks</h2>
+            <p>Este tema não foi criado para um framework ou tecnologia específica, como Angular ou React. Mas devido à sua natureza modular, é muito fácil incorporá-lo a qualquer framework de front-end ou back-end como Angular, React ou VueJs ou Node JS. O CSS é modular o suficiente para ser incorporado em qualquer framework. Enquanto o Javascript usado para tornar os componentes interativos pode ser usado de qualquer um dos seguintes frameworks.</p>
+            <p>Se você estiver usando Angular, poderá usar o <a href="https://angular-ui.github.io/bootstrap/" rel="noopener">ui-bootstrap</a>, para React use o <a href="https://react-bootstrap.github.io/" rel="noopener">React-Bootstrap</a> e para VueJs, você poderá usar o <a href="https://yuche.github.io/vue-strap/" rel="noopener">VueStrap</a>.</p>
+            <p>Se você estiver usando o Node JS como seu servidor web, poderá usar o pug como seu mecanismo de layout para renderizar modelos HTML no estado em que estão, sem compilá-los para HTML. Mais detalhes estão disponíveis <a href="https://pugjs.org/api/express.html" target="_balnk">aqui</a>.</p>
+            <h2 class="docs-title" id="RTL-Support">Suporte RTL</h2>
+            <p>Para habilitar o suporte RTL:
               <ul>
-                <li>Uncomment this line <code>@import '3-component/rtl';</code> in <code>src/sass/main.scss</code>. </li>
-                <li>Add <code>dir="rtl"</code> attribute to <code>&lt;html&gt;</code> tag in <code>src/pug/layouts/_layout.pug</code>.</li>
-                <li>Build the source files using <code>npm run build</code> command.</li>
+                <li>Remover o comentário desta linha <code>@import '3-component/rtl';</code> em <code>src/sass/main.scss</code>.</li>
+                <li>Adicionar o atributo <code>dir="rtl"</code> à tag <code>&lt;html&gt;</code> em <code>src/pug/layouts/_layout.pug</code>.</li>
+                <li>Compilar os arquivos de origem usando o comando <code>npm run build</code>.</li>
               </ul>
             </p>
-            <h2 class="docs-title" id="Contribution-and-Issues">Contribution & Issues</h2>
-            <p>If you liked the theme do star and fork it on <a href="https://github.com/pratikborsadiya/vali-admin" target="_blank" rel="noopener">GitHub</a>. If you find anything missing or want to contribute to this documentation, the source is available <a href="https://github.com/pratikborsadiya/vali-admin/blob/master/src/pug/charts.pug" target="_blank" rel="noopener">here</a>. If you have an issue or feature request regarding theme please report it <a href="https://github.com/pratikborsadiya/vali-admin/issues/new" target="_blank" rel="noopener">here</a>.</p>
+            <h2 class="docs-title" id="Contribution-and-Issues">Contribuição e problemas</h2>
+            <p>Se você gostou do template, dê uma estrela e faça um fork no <a href="https://github.com/alexjesustech/ocellaris-dash/fork" target="_blank" rel="noopener">GitHub</a>. Se você encontrar algo faltando ou quiser contribuir para esta documentação, o código-fonte está disponível em <code>src/pug/docs.pug</code>. Se você tiver um problema ou solicitação de recurso em relação ao tema, informe-o <a href="https://github.com/alexjesustech/ocellaris-dash/issues/new" target="_blank" rel="noopener">aqui</a></p>
           </div>
         </div>
       </div>

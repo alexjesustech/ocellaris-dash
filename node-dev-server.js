@@ -1,4 +1,4 @@
-// Node JS development server for Vali Admin
+// Node JS development server for Ocellaris Dash
 
 const http = require("http");
 const url = require("url");

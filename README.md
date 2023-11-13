@@ -28,7 +28,7 @@ Consulte as diretrizes de contribuição: CONTRIBUTING.md se estiver pensando em
 
 ## Colaboradores
 
-- Este fork foi criado com base no trabalho original [Vali Admin](https://github.com/pratikborsadiya/vali-admin). Agradecemos ao autor [Pratik Borsadiya](http://pratikborsadiya.in) por seu trabalho e contribuição para a comunidade de código aberto.
+- Este fork foi criado com base no trabalho original [Ocellaris Dash](https://github.com/alexjesustech/ocellaris-dash). Agradecemos ao autor [Pratik Borsadiya](http://pratikborsadiya.in) por seu trabalho e contribuição para a comunidade de código aberto.
 - Lista de [colaboradores](https://github.com/alexjesustech/ocellaris-dash/graphs/contributors) que participaram deste projeto.
 
 ## Licença
