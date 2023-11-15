@@ -24,6 +24,16 @@ html(lang='pt-br')
 
 		link(rel='stylesheet', type='text/css', href='css/main.css')
 
+		// Google tag (gtag.js)
+		script(async='' src='https://www.googletagmanager.com/gtag/js?id=G-G2XW0S3C8E')
+		script.
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'G-G2XW0S3C8E');
+
 	body.landing-page
 		include includes/_landing-icons.pug
 		section.landing-hero
@@ -74,13 +84,3 @@ html(lang='pt-br')
 				a(href='https://github.com/alexjesustech/ocellaris-dash/blob/main/LICENSE', target='_blank')  licença MIT
 				|, documentação sob
 				a(href='https://creativecommons.org/licenses/by/4.0/deed.pt-br', target='_blank')  CC BY 4.0.
-
-		// Google tag (gtag.js)
-		script(async='' src='https://www.googletagmanager.com/gtag/js?id=G-7W8LKJBHHC')
-		script.
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
-			gtag('config', 'G-7W8LKJBHHC');
